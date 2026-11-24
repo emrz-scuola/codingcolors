@@ -7,9 +7,11 @@
     </head>
     <body>
         <h1>Benvenuto</h1>
-        <label for="color-input">Inserisci un colore:</label> 
-        <input id="color-input" type="color">
-        <p id="output">Vedi il risultato qui!</p>
+        <h2 id="date-text"></h2>
+        <label for="color-num-input">Inserisci il valore rgb del colore <p id="next-color-txt"></p>:</label> 
+        <input id="color-num-input" type="number" min="0" max="255" step="1">
+        <button id="process-btn">Mostra Risultato</button>
+        <p id="output"></p>
         <script src="script.js"></script>
     </body>
 </html>
